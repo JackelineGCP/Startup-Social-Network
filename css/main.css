@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Acme');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main .card {
+  width: 100%;
+}
+
+#login {
+  background-image: url('../assets/images/fondo-login.jpg');
+  background-size: cover;
+  height: 540px;
+  background-position: top center;
+}
+
+
+/*Footer*/
+
+#perfil .btn-floating.halfway-fab {
+  bottom: 0;
+}
+
+#post form {
+  background: rgb(241, 237, 237);
+  padding-bottom: 15px;
+  padding-top: 15px;
+  margin-top: 20px;
+}
+
+.card .card-content .form-p {
+  margin-bottom: 15px;
+}
+
+
+/*Estilos para subida de archivos*/
+
+#file-img {
+  width: 300px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+#file-img .card {
+  height: 171px;
+  width: 171px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+#preview {
+  position: relative;
+}
+
+#preview a {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  right: 5px;
+  display: none;
+}
+
+#file-info {
+  text-align: center;
+  display: block;
+}
+
+#file-img input[type=file] {
+  position: absolute;
+  visibility: hidden;
+  width: 0;
+  z-index: -9999;
+}
+
+#file-save {
+  text-align: center;
+  width: 171px;
+}
+
+.img-file {
+  width: auto;
+  height: 171px;
+}
+
+.card .tabs .tab {
+  line-height: 28px;
+}
+
+#perfil .card .tabs {
+  height: 58px;
+}
+
+
+/* para que se agrege los post de los usuarios*/
+
+.card-text {
+  height: 150px;
+  width: 100%;
+  padding: 5px;
+  position: relative;
+}
+
+.posteando {
+  position: relative;
+  padding: 20px !important;
+}
+
+.iconitos li {
+  display: inline-block;
+  padding: 15px;
+  width: 19px;
+  height: 27px;
+  color: #fff;
+}
+
+.iconitos li:hover i {
+  color: salmon;
+}
+
+.iconitos a {
+  width: 13px;
+  height: 17px;
+}
+
+.iconitos i {
+  width: 13px;
+  height: 14px;
+}
+
+.iconss {
+  padding: 3px;
+  margin-top: 13px;
+}
+
+.splash {
+  background: linear-gradient(to bottom, slategray, black);
+  height: 100vh;
+}
+
+.logo-splash {
+  margin-top: 10%;
+  position: absolute;
+}
+
+.logo {
+  width: 230px;
+  padding-top: 1%;
+}
+
+.nav-wrapper {
+  position: absolute;
+  top: 0px;
+}
+
+.one-main {
+  display: inline-block;
+}
+
+#logo-big {
+  padding-top: 1%;
+}
+
+#home .logo,
+#logo-big .logo-small {
+  padding-top: 11px;
+}
+
+.news {
+  color: salmon;
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+}
+
+#home .secondary-content {
+  float: none;
+}
+
+#post label {
+  font-size: 1.3rem;
+}
+
+.carousel img {
+  height: 182.5px;
+}
+
+#login #btn-google {
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
+#login btn {
+  width: 100%;
+}
+
+#login h4 {
+  margin: 0;
+  padding-top: 40%;
+}
+
+#perfil>.row {
+  background-color: #e4d9d9;
+}
+
+@media (min-width: 992px) {
+  footer {
+    position: absolute;
+    bottom: 0px;
+  }
+  #login h4 {
+    padding-top: 10%;
+  }
+  nav .row .col.s6 {
+    padding-top: 5px;
+    width: 20%;
+  }
+  nav .list-nav {
+    float: right;
+  }
+  .carousel img {
+    height: 300px;
+  }
+  #login {
+    background-image: url('../assets/images/fondo-login.jpg');
+    background-size: cover;
+    height: 670px;
+    background-position: top center;
+  }
+}
